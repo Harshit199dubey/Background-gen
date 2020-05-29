@@ -1,0 +1,179 @@
+/*body {
+  margin: 0;
+  padding: 0;
+  background-color: #2185f6;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7tQznvuMwLC0-w_h5Z-p-FaDFOV9Qa1xzX4EpMEem9otqig8tkg");
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+
+}
+
+header {
+  font-family: 'Pacifico', cursive;
+  font-size: 2em;
+  color: wheat;
+}
+
+.wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section {
+  max-width: 100%;
+  text-align: left;
+  margin: 0 auto;
+  /*padding-left: 25%;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+}
+
+input {
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: -webkit-box-shadow: 4px 6px 23px -2px rgba(17,128,109,0.71);
+        -moz-box-shadow: 4px 6px 23px -2px rgba(17,128,109,0.71);
+        box-shadow: 4px 6px 23px -2px rgba(17,128,109,0.71);
+}
+
+button {
+  padding: 10px 20px 10px 20px;
+  margin: 5px;
+  border: none;
+  background-color:rgba(252, 153, 20, 0.8);
+  border-radius: 5px;
+  box-shadow: -webkit-box-shadow: 4px 6px 23px -2px rgba(17,128,109,0.71);
+        -moz-box-shadow: 4px 6px 23px -2px rgba(17,128,109,0.71);
+        box-shadow: 4px 6px 23px -2px rgba(17,128,109,0.71);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.background--lightgreen {
+  max-width: 100%;
+  background-color: #DBF4E3;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 6px 23px -2px rgba(17,128,109,0.91);
+  -moz-box-shadow: 4px 6px 23px -2px rgba(17,128,109,0.91);
+  box-shadow: 4px 6px 23px -2px rgba(17,128,109,0.91);
+  opacity: .7;
+}
+
+ul li {
+  opacity: 1;
+  cursor: pointer;
+
+}
+
+.done {
+  text-decoration: line-through;
+
+}
+
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20%;
+
+}
+
+.div {
+  width: 30px;
+    height: 30px;
+
+  cursor: pointer;
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://peoplepng.com/wp-content/uploads/2019/04/delete-icon-png-blue.png");
+}
+.dot{
+	display: flex;
+	text-align: center;
+	height: .5rem;
+	width: .5rem;
+	border-radius: 8px;
+	background-color: black;
+}
+.li-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px;
+}*/
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+body{
+  display: flex;
+  margin: 0px;
+  height: 100%;
+  justify-content: center;
+  background-image: url(136441.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header{
+  text-align: center;
+  font: 'raleway', Blackadder ITC;
+  /*color: #999966;*/
+  letter-spacing: .5em;
+  text-transform: uppercase;
+  top: 15%;
+
+}
+h1 {
+  font:600 3.5em ;
+  /*color: rgba(0,0,0,.5);*/
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  width: 100%;
+}
+h3{
+  font:900 1em ;
+  text-align: center;
+  text-transform: none;
+  letter-spacing: .01em;
+}
+input{
+  border: none;
+ border-radius: 50%;
+ width: 2%;
+ background-color: rgb(216, 197, 158);
+ border-style: none; 
+}
+.random{
+  width: auto;
+  padding: 10px;
+  border-radius: 2px;
+  background-color: #000fff;
+  color:white;
+  transition: .5s;
+  box-shadow: 5px 5px 10px 0px green;
+  border: none;
+
+}
+.random:hover{
+  cursor: pointer;
+  transform: scale(1.1); 
+}
+div{
+  text-align: center;
+  background: transparent;
+  
+}
